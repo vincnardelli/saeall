@@ -1,0 +1,27 @@
+Package: saeall
+Title: saeall: Sampling Allocation for Small Area Estimation
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Vincenzo", "Nardelli", , "vincnardelli@gmail.com", role = c("cre", "aut")),
+    person("Piero Demetrio", "Falorsi", role = "ctb"),
+    person("Stefano", "Falorsi", role = "ctb"),
+    person("Paolo", "Righi", role = "ctb")
+  )
+Description: This package implements a proper statistical setting for
+    defining the sampling design for a small area estimation problem.  The
+    general random sampling framework is based on sampling without
+    replacement and with varying inclusion probabilities.  The sample is
+    selected with the cube method based on balancing sampling equations
+    useful in the small area situation.  This method allows to obtain the
+    minimum-cost sampling solution.
+License: LGPL (>= 3)
+URL: https://github.com/vincnardelli/saeall
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    nloptr,
+    stringr
+Depends: 
+    R (>= 2.10)
+LazyData: true
